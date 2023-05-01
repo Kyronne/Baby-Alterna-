@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav 
     className={`
       ${styles.paddingX} w-full flex 
-      items-center py-5 fixed top-0 z-40 bg-white
+      items-center py-5 fixed top-0 z-40 bg-gray-400
       `}>
         <div className='w-full flex justify-between items-center 
         max-w-7xl mx-auto'>
@@ -66,7 +66,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`${nav.id}`}>{nav.title} target="_blank"</a>
+                  <a href={`${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
