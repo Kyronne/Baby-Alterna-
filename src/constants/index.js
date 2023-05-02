@@ -7,5 +7,9 @@
       id: "https://telegram.me/BabyAlternaBSC",
       title: "Telegram",
     },
+    {
+      id: "mailto:contact@babyalterna.com",
+      title: "Email",
+    },
   ];
   
