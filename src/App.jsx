@@ -4,7 +4,7 @@ import { About, Hero, Navbar, } from './components'
 const App = () =>  {
   return (
     <BrowserRouter>
-    <div className="relative z-0 bg-fuchsia-700">
+    <div className="relative z-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       
         <Navbar />
         <Hero />    

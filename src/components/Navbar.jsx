@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav 
     className={`
       ${styles.paddingX} w-full flex 
-      items-center py-5 fixed top-0 z-40 bg-gray-400
+      items-center py-5 fixed top-0 z-40 bg-slate-800
       `}>
         <div className='w-full flex justify-between items-center 
         max-w-7xl mx-auto'>
@@ -25,9 +25,10 @@ const Navbar = () => {
           }
 
           }>
-          <p className="text-black text-[18px] font-bold 
+          
+          <p className="text-white text-[18px] font-bold 
           cursor-pointer flex">
-          Baby Alterna Network </p>
+          Baby Alterna </p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
               {navLinks.map((nav) => (
@@ -35,8 +36,8 @@ const Navbar = () => {
                   key={nav.id}
                   className={`${
                     active === nav.title ? 
-                    "text-black" : "text-black"
-                  } hover:text-black text-[18px] font-medium cursor-pointer`}
+                    "text-white" : "text-white"
+                  } hover:text-gray text-[18px] font-medium cursor-pointer`}
                   onClick={() => {
                     setActive(nav.title)
                   }}
