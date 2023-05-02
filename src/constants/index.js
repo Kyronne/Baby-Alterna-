@@ -8,6 +8,10 @@
       title: "Telegram",
     },
     {
+      id: "https://babyalterna.dexbuilder.app",
+      title: "Dex",
+    },
+    {
       id: "mailto:contact@babyalterna.com",
       title: "Email",
     },
