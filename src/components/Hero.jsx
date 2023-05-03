@@ -17,7 +17,7 @@ const Hero = () => {
                 Baby Alterna Network  </h1>
                 <p className={`{styles.heroSubText} mt-2
                  text-white`}>
-                  9% tax, lp burnt. Earn rewards in one of the fastest growing startup blockchains. <br 
+                  Earn 6% rewards on every transaction of one of the fastest growing startup blockchains Alterna Network. <br 
                   className='sm:block hidden'/> 
                  </p>
                  
