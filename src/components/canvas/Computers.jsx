@@ -26,7 +26,7 @@ const Computers = ( { isMobile }) => {
       <primitive 
       object={computer.scene}
       scale={isMobile ? 7 : 11}
-      position={isMobile ? [2, -4, 2] : [0, -5, 14]}
+      position={isMobile ? [2, -4, 2] : [0, -5, 3]}
       />
     </mesh>
   );
@@ -63,7 +63,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{ position: [80, 1, 10], fov: 20 }}
+      camera={{ position: [80, 1, 10], fov: 22 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -71,6 +71,8 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          maxAzimuthAngle={Math.PI / 1.9}
+          minAzimuthAngle={Math.PI / 2.4}
         />
         <Computers isMobile={isMobile}/>
       </Suspense>
