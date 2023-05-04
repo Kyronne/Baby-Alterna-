@@ -6,6 +6,7 @@ import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc';
 
 
+
 const About = () => {
   return (
     <>
@@ -21,7 +22,13 @@ const About = () => {
       Cheap Gas Fee chain. Hold and see your tokens grow. 
       Join us in our Telegram where we have experienced Mods and team. 
     </motion.p>
+
+     
+    
     </>
+    
+    
+
   )
 }
 
