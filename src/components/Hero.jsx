@@ -17,7 +17,7 @@ const Hero = () => {
                 Baby Alterna Network  </h1>
                 <p className={`{styles.heroSubText} mt-2
                  text-white`}>
-                  Earn 6% rewards on every transaction of one of the fastest growing startup blockchains Alterna Network. <br 
+                  Earn 8% rewards on every transaction of one of the fastest growing startup blockchains Alterna Network. <br 
                   className='sm:block hidden'/> 
                  </p>
                  
