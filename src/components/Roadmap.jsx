@@ -29,10 +29,6 @@ const Roadmap = () => {
       
       </li> 
       <li
-      > Develop a whale group for our most loyal holders. 
-      
-      </li> 
-      <li
       > Further Lisiting and Marketing to come as the token grows. 
       
       </li> 
